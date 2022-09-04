@@ -9,7 +9,7 @@ let statistics = [
 </script>
 
 <template>
-  <div id="statistics-wrapper">
+  <div class="flex">
     <div id="left">
       <h1 id="title">Enjoy this amazing template from a cool guy.</h1>
       <div id="statistic-items-wrapper">
@@ -26,15 +26,8 @@ let statistics = [
 </template>
 
 <style>
-#statistics-wrapper {
-  display: flex;
-}
-
 #title {
-  font-family: "Gilroy-Bold";
   margin: 8rem auto 4rem auto;
-  font-size: 3rem;
-  line-height: 3rem;
 }
 
 #left {
