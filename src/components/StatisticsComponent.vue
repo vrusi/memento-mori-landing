@@ -10,7 +10,7 @@ let statistics = [
 
 <template>
   <div class="flex">
-    <div id="left">
+    <div id="stat-left">
       <h1 id="title">Enjoy this amazing template from a cool guy.</h1>
       <div id="statistic-items-wrapper">
         <StatisticsItem v-for="statistic in statistics" :key="statistic.key">
@@ -19,7 +19,7 @@ let statistics = [
         </StatisticsItem>
       </div>
     </div>
-    <div id="right">
+    <div id="stat-right">
       <div id="circle"></div>
     </div>
   </div>
@@ -30,10 +30,10 @@ let statistics = [
   margin: 8rem auto 4rem auto;
 }
 
-#left {
+#stat-left {
   width: 50%;
 }
-#right {
+#stat-right {
   width: 50%;
   margin: auto auto 0 auto;
 }
