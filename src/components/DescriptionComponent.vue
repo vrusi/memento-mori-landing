@@ -74,10 +74,6 @@ img {
   width: 100%;
 }
 
-h1 {
-  margin-bottom: 3rem;
-}
-
 #desc-left {
   width: 35%;
 }
@@ -88,6 +84,6 @@ h1 {
 }
 
 .description-item {
-  margin: 0 3rem 3rem 0;
+  margin: 3rem 3rem 0 0;
 }
 </style>

@@ -39,3 +39,7 @@ h1 {
 .flex {
     display: flex;
 }
+
+.align-center {
+    text-align: center;
+}
