@@ -8,10 +8,7 @@ import IconShell from "./icons/IconShell.vue";
 <template>
   <div class="flex">
     <div id="desc-left">
-      <img
-        src="https://images.unsplash.com/photo-1526716173434-a1b560f2065d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2730&q=80"
-        alt="Zen image"
-      />
+      <div id="panda-img"></div>
     </div>
     <div id="desc-right">
       <h1>Memento Mori, always.</h1>
@@ -69,11 +66,6 @@ import IconShell from "./icons/IconShell.vue";
 </template>
 
 <style>
-img {
-  height: auto;
-  width: 100%;
-}
-
 #desc-left {
   width: 35%;
 }
@@ -85,5 +77,14 @@ img {
 
 .description-item {
   margin: 3rem 3rem 0 0;
+}
+
+#panda-img {
+  background: url("https://images.unsplash.com/photo-1526716173434-a1b560f2065d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2730&q=80");
+  height: 40rem;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 </style>
