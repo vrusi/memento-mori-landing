@@ -10,16 +10,16 @@ let statistics = [
 
 <template>
   <div class="flex">
-    <div id="stat-left">
+    <div class="w-50">
       <h1 id="title">Enjoy this amazing template from a cool guy.</h1>
-      <div id="statistic-items-wrapper">
+      <div class="space-between">
         <StatisticsItem v-for="statistic in statistics" :key="statistic.key">
           <template #value>{{ statistic.value }}</template>
           <template #key> {{ statistic.key }}</template>
         </StatisticsItem>
       </div>
     </div>
-    <div id="stat-right">
+    <div class="w-50">
       <div id="circle"></div>
     </div>
   </div>
@@ -27,25 +27,12 @@ let statistics = [
 
 <style>
 #title {
-  margin: 8rem auto 4rem auto;
-}
-
-#stat-left {
-  width: 50%;
-}
-#stat-right {
-  width: 50%;
-  margin: auto auto 0 auto;
-}
-
-#statistic-items-wrapper {
-  display: flex;
-  justify-content: space-between;
+  margin: 12rem auto 4rem auto;
 }
 
 #circle {
-  width: 20rem;
-  height: 20rem;
+  width: 25rem;
+  height: 25rem;
   border-radius: 100%;
   background-color: rgba(87, 204, 153, 0.1);
   margin: auto;

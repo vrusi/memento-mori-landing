@@ -7,14 +7,14 @@ import IconShell from "./icons/IconShell.vue";
 
 <template>
   <div class="flex">
-    <div id="desc-left">
-      <div id="panda-img"></div>
+    <div class="w-35">
+      <div id="desc-img"></div>
     </div>
-    <div id="desc-right">
+    <div class="w-65" id="desc-right">
       <h1>Memento Mori, always.</h1>
 
       <div class="flex">
-        <div class="description-item">
+        <div class="desc-item">
           <i>
             <IconHills />
           </i>
@@ -25,7 +25,7 @@ import IconShell from "./icons/IconShell.vue";
             design, create and test.
           </div>
         </div>
-        <div class="description-item">
+        <div class="desc-item">
           <i>
             <IconTrees />
           </i>
@@ -38,7 +38,7 @@ import IconShell from "./icons/IconShell.vue";
         </div>
       </div>
       <div class="flex">
-        <div class="description-item">
+        <div class="desc-item">
           <i>
             <IconLeaf />
           </i>
@@ -49,7 +49,7 @@ import IconShell from "./icons/IconShell.vue";
             design, create and test.
           </div>
         </div>
-        <div class="description-item">
+        <div class="desc-item">
           <i>
             <IconShell />
           </i>
@@ -66,20 +66,15 @@ import IconShell from "./icons/IconShell.vue";
 </template>
 
 <style>
-#desc-left {
-  width: 35%;
-}
-
 #desc-right {
-  width: 65%;
   margin: 2rem 0 0 4rem;
 }
 
-.description-item {
+.desc-item {
   margin: 3rem 3rem 0 0;
 }
 
-#panda-img {
+#desc-img {
   background: url("https://images.unsplash.com/photo-1526716173434-a1b560f2065d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2730&q=80");
   height: 40rem;
   width: auto;
